@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/main_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded_shape"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <paramount.com.androidproject.utils.DominoBoldTextView
+                android:id="@+id/location_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+
+                android:drawableLeft="@mipmap/location"
+                android:drawablePadding="5dp"
+                android:gravity="left|center"
+                android:text="BrookField Place"
+                android:textColor="@color/bg_yellow_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/iv_expand"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end|center"
+                android:layout_weight="0.5"
+                android:src="@mipmap/downarrow" />
+
+            <ImageView
+                android:id="@+id/iv_up"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end|center"
+                android:layout_weight="0.5"
+                android:src="@mipmap/up"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginRight="30dp"
+                android:id="@+id/mode"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="@drawable/btn_rounded_shape" />
+
+            <paramount.com.androidproject.utils.DominoBoldTextView
+                android:id="@+id/location_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="BrookField Place"
+                android:textColor="@color/bg_yellow_color"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/main_view"
+        android:id="@+id/show_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded_shape"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/location_addressDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:orientation="vertical">
+
+            <paramount.com.androidproject.utils.DominoRegularTextView
+                android:id="@+id/location_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="161 Bay street"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <paramount.com.androidproject.utils.DominoRegularTextView
+                android:id="@+id/location_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toronto,Ontario"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <paramount.com.androidproject.utils.DominoRegularTextView
+                android:id="@+id/location_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M98833"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <paramount.com.androidproject.utils.DominoBoldTextView
+            android:id="@+id/location_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@mipmap/cell_icon"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="4165517415"
+            android:textColor="@color/bg_yellow_color"
+            android:textSize="14sp" />
+
+        <paramount.com.androidproject.utils.DominoBoldTextView
+            android:id="@+id/location_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@mipmap/email"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="info@paramountfinefoods.com"
+            android:textColor="@color/bg_yellow_color"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</RelativeLayout>
+
+    <!--<ImageView--><!--android:id="@+id/iv_location_mode"--><!--android:layout_width="15dp"--><!--android:layout_height="15dp"--><!--android:layout_gravity="center|end"--><!--android:layout_margin="20dp"--><!--android:background="@drawable/roundshape_online_offline" />-->
+
+
+
+
+

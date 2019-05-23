@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@mipmap/wallpaper"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <!-- TODO: Update blank fragment layout -->
+    <paramount.com.androidproject.utils.DominoBoldTextView
+        android:text="FREQUENTLY ASKED QUESTIONS"
+        android:textColor="@color/bg_yellow_color"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_yellow_color"
+        android:layout_height="3dp"/>
+x
+        <!--<View-->
+            <!--android:id="@+id/view_5"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="3dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:background="@color/bg_yellow_color" />-->
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ques1"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:text="Question1"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <paramount.com.androidproject.utils.DominoRegularTextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ans1"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:text="Answer1"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="match_parent"
+        android:background="@color/bg_yellow_color"
+        android:layout_height="3dp"/>
+
+        <View
+            android:id="@+id/view_3"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ques2"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Question2"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ans2"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Answer2"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/view_4"
+            android:layout_width="match_parent"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+        <View
+            android:id="@+id/view_21"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ques3"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Question3"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:id="@+id/ans3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:text="Answer3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/view_6"
+            android:layout_width="match_parent"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+        <View
+            android:id="@+id/view_7"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ques4"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Question4"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ans4"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Answer4"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/view_8"
+            android:layout_width="match_parent"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+        <View
+            android:id="@+id/view_9"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ques5"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Question5"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ans5"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Answer5"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/view_10"
+            android:layout_width="match_parent"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+        <View
+            android:id="@+id/view_11"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ques6"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Question6"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ans6"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Answer6"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/view_12"
+            android:layout_width="match_parent"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+        <View
+            android:id="@+id/view_13"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ques7"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Question7"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ans7"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Answer7"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/view_14"
+            android:layout_width="match_parent"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+        <View
+            android:id="@+id/view_15"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ques8"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Question8"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ans8"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Answer8"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/view_16"
+            android:layout_width="match_parent"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+
+        <View
+            android:id="@+id/view_17"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ques9"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Question9"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ans9"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Answer9"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/view_18"
+            android:layout_width="match_parent"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+
+        <View
+            android:id="@+id/view_19"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ques10"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Question10"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ans10"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="Answer10"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/view_20"
+            android:layout_width="match_parent"
+            android:background="@color/bg_yellow_color"
+            android:layout_height="3dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

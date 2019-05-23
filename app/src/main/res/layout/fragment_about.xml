@@ -1,0 +1,49 @@
+<LinearLayout
+    android:background="@mipmap/wallpaper"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <paramount.com.androidproject.utils.DominoBoldTextView
+        android:text="PARAMOUNT STORY"
+        android:textColor="@color/bg_yellow_color"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:background="@mipmap/rectanglebox">
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_about"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            />
+
+        <paramount.com.androidproject.utils.DominoRegularTextView
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_aboutpart2"
+            android:textSize="20.5dp"
+            android:gravity="center"
+            android:textColor="@color/bg_yellow_color"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ContactFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/wallpaper"
+        android:orientation="vertical"
+        tools:context=".activities.RegisterActivity">
+
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/group_logo" />
+
+            <LinearLayout
+
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_rounded_shape"
+                android:orientation="vertical"
+                >
+
+                <paramount.com.androidproject.utils.DominoBoldTextView
+
+                    android:id="@+id/resto_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="Paramount Fine Foods"
+                    android:textColor="@color/bg_yellow_color"
+                    android:textSize="16sp" />
+
+                <paramount.com.androidproject.utils.DominoBoldTextView
+
+                    android:id="@+id/contact_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:drawableLeft="@mipmap/croppedlocation"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="10 Four Seasons Place"
+                    android:textColor="@color/bg_yellow_color"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="55dp"
+                    android:gravity="center|left"
+                    android:orientation="vertical">
+
+
+                    <paramount.com.androidproject.utils.DominoRegularTextView
+                        android:textColor="@color/white"
+                        android:id="@+id/location_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Suite 601"
+                        android:textSize="12sp" />
+
+                    <paramount.com.androidproject.utils.DominoRegularTextView
+                        android:textColor="@color/white"
+                        android:id="@+id/location_city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Toronto,Ontario"
+                        android:textSize="12sp" />
+
+                    <paramount.com.androidproject.utils.DominoRegularTextView
+                        android:textColor="@color/white"
+                        android:id="@+id/location_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="M9B 6H7"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <paramount.com.androidproject.utils.DominoBoldTextView
+                    android:id="@+id/location_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:drawableLeft="@mipmap/cell_icon"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="416-695-8900"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <paramount.com.androidproject.utils.DominoBoldTextView
+                    android:id="@+id/location_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:drawableLeft="@mipmap/email"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="info@paramountfinefoods.com"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

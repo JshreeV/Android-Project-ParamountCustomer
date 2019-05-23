@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/wallpaper"
+    android:gravity="center"
+    android:nestedScrollingEnabled="true"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_orderList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1.5"
+        android:dividerHeight="8dp"
+        android:gravity="center">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <paramount.com.androidproject.utils.DominoBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_rectangle_box"
+                android:gravity="center"
+                android:text="SUB-TOTAL"
+                android:textColor="@color/bg_yellow_color"
+                android:textSize="20sp" />
+
+            <paramount.com.androidproject.utils.DominoBoldTextView
+                android:id="@+id/tv_total"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_rectangle_box"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/bg_yellow_color"
+                android:textSize="20sp" />
+
+            <paramount.com.androidproject.utils.DominoBoldTextView
+                android:id="@+id/tv_price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_rectangle_box"
+                android:gravity="center"
+                android:text="$3.999"
+                android:textColor="@color/bg_yellow_color"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <paramount.com.androidproject.utils.DominoBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_rectangle_box"
+                android:gravity="center"
+                android:text="TAX"
+                android:textColor="@color/bg_yellow_color"
+                android:textSize="20sp" />
+
+            <paramount.com.androidproject.utils.DominoBoldTextView
+                android:id="@+id/tv_taxPercentage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_rectangle_box"
+                android:gravity="center"
+                android:text="13.5%"
+                android:textColor="@color/bg_yellow_color"
+                android:textSize="20sp" />
+
+            <paramount.com.androidproject.utils.DominoBoldTextView
+                android:id="@+id/tv_taxAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_rectangle_box"
+                android:gravity="center"
+                android:text="$50"
+                android:textColor="@color/bg_yellow_color"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <paramount.com.androidproject.utils.DominoBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_rectangle_box"
+                android:gravity="center"
+                android:text="TOTAL"
+                android:textColor="@color/bg_yellow_color"
+                android:textSize="20sp" />
+
+            <paramount.com.androidproject.utils.DominoBoldTextView
+                android:id="@+id/tv_totalCount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_rectangle_box"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/bg_yellow_color"
+                android:textSize="20sp" />
+
+            <paramount.com.androidproject.utils.DominoBoldTextView
+                android:id="@+id/tv_totalAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_rectangle_box"
+                android:gravity="center"
+                android:text="$450"
+                android:textColor="@color/bg_yellow_color"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <paramount.com.androidproject.utils.DiavloBoldTextView
+        android:id="@+id/tv_placeOrder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="0.2"
+        android:background="@drawable/shape_rectangle_box"
+        android:gravity="center"
+        android:text="PLACE ORDER"
+        android:textColor="@color/bg_yellow_color"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
+

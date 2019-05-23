@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <paramount.com.androidproject.utils.DominoBoldTextView
+            android:id="@+id/packages_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_rounded_shape"
+            android:gravity="center"
+            android:text="Sauces_1"
+            android:textColor="@color/bg_yellow_color"
+            android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:id="@+id/display_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_rounded_shape"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:src="@mipmap/close" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <paramount.com.androidproject.utils.DominoBoldTextView
+                    android:id="@+id/s_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:gravity="left"
+                    android:text="Sauces_1"
+                    android:textColor="@color/bg_yellow_color"
+                    android:textSize="20sp" />
+
+                <paramount.com.androidproject.utils.DominoBoldTextView
+                    android:id="@+id/s_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:gravity="end"
+                    android:text="Sauces_1"
+                    android:textColor="@color/bg_yellow_color"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+            <paramount.com.androidproject.utils.DominoBoldTextView
+                android:id="@+id/s_cal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="left"
+                android:text="Serves 4 People"
+                android:textColor="@color/bg_yellow_color"
+                android:textSize="16sp" />
+
+            <paramount.com.androidproject.utils.DominoBoldTextView
+                android:id="@+id/s_serves"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="left"
+                android:text="Serves 4 People"
+                android:textColor="@color/bg_yellow_color"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_rounded_shape"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_minus"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/minus" />
+
+
+                <paramount.com.androidproject.utils.DominoBoldTextView
+                    android:id="@+id/s_quantity"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/bg_yellow_color"
+                    android:textSize="16sp" />
+
+
+                <ImageView
+                    android:id="@+id/iv_plus"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/plus" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_addToCart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_yellow_color"
+                android:gravity="center"
+                android:text="Add To Cart"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
